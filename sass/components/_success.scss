@@ -1,0 +1,39 @@
+.success {
+  padding: 230px 210px 180px;
+  background-color: $bgr-accent-color;
+}
+.success__container {
+  margin: 0 auto;
+  padding: 0 17px;
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+}
+.success-title {
+  color: $primery-white-color;
+  width: 540px;
+}
+.success__text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 157%;
+  color: $primery-white-color;
+  margin: 33px 0 57px;
+}
+.success__img {
+  z-index: 10;
+}
+.success__icon {
+  fill: $primery-white-color;
+  position: absolute;
+  right: 45%;
+  bottom: 41%;
+  z-index: 12;
+}
+.title-button {
+  width: 550px;
+}
+.video {
+  position: relative;
+  margin-left: auto;
+}

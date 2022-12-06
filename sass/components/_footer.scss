@@ -1,0 +1,17 @@
+.page-footer {
+  background-color: $bgr-accent-color;
+  padding: 92px 0 147px;
+}
+.footer__link {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 1.2;
+
+  color: $primery-white-color;
+}
+.footer__item:not(:last-child) {
+  margin-bottom: 60px;
+}
+.footer__item:first-child {
+  margin-top: 60px;
+}

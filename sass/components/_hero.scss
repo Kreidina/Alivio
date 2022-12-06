@@ -1,0 +1,27 @@
+.hero {
+  max-width: 1600px;
+  max-height: 900px;
+  background-image: url(../images/BGR.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.hero-container {
+  padding: 175px 17px 336px;
+}
+.hero-title {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 1.2;
+  width: 440px;
+  color: $accent-color;
+}
+.hero__text {
+  font-weight: 400;
+  line-height: 1.55;
+
+  color: $grey;
+  width: 420px;
+  margin: 30px 0 48px 0;
+}

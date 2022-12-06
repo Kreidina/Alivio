@@ -1,0 +1,75 @@
+body {
+  color: $primery-text-color;
+  background-color: $primery-white-color;
+  font-family: Maven, sans-serif;
+  font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+// address {
+//   font-style: normal;
+// }
+button {
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+.button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.25;
+  text-align: center;
+  background-color: $accent-color;
+  color: $primery-white-color;
+  padding: 20px 50px;
+  border: 1px solid #01996d;
+}
+// .section {
+//   padding-top: 60px;
+//   padding-bottom: 60px;
+//   @media screen and (min-width: $desktop) {
+//     padding-top: 94px;
+//     padding-bottom: 94px;
+//   }
+// }
+.section-title {
+  font-family: Georgia;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: $accent-color;
+  width: 585px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1400px;
+  border: 2px solid red;
+}
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+// .mobile-menu .link-current {
+//   color: $accent-color;
+// }
