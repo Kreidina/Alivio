@@ -20,9 +20,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-// address {
-//   font-style: normal;
-// }
 button {
   display: block;
   cursor: pointer;
@@ -37,16 +34,16 @@ button {
   background-color: $accent-color;
   color: $primery-white-color;
   padding: 20px 50px;
-  border: 1px solid #01996d;
+  border: 1px solid $accent-color;
+  transition: box-shadow $duration-function, background-color $duration-function,
+    border $duration-function;
+  &:hover,
+  &:focus {
+    box-shadow: $shadow;
+    background-color: #036b4d;
+    border: 1px solid #036b4d;
+  }
 }
-// .section {
-//   padding-top: 60px;
-//   padding-bottom: 60px;
-//   @media screen and (min-width: $desktop) {
-//     padding-top: 94px;
-//     padding-bottom: 94px;
-//   }
-// }
 .section-title {
   font-family: Georgia;
   font-weight: 700;
@@ -69,6 +66,3 @@ button {
   text-decoration: none;
   color: inherit;
 }
-// .mobile-menu .link-current {
-//   color: $accent-color;
-// }

@@ -8,6 +8,11 @@
   line-height: 1.2;
 
   color: $primery-white-color;
+  transition: color $duration-function;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 .footer__item:not(:last-child) {
   margin-bottom: 60px;
