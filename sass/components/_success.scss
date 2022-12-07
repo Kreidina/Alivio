@@ -16,12 +16,13 @@
 .success__text {
   font-weight: 600;
   font-size: 22px;
-  line-height: 157%;
+  line-height: 140%;
   color: $primery-white-color;
   margin: 33px 0 57px;
 }
 .success__img {
   z-index: 10;
+  border-radius: 16px;
 }
 .success__icon {
   fill: $primery-white-color;

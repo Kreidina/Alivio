@@ -1,0 +1,21 @@
+.diary {
+  padding: 120px 0 170px;
+}
+.diary__container {
+  position: relative;
+  display: flex;
+}
+.diary__img {
+  margin-left: 60px;
+}
+.diary__paragraph {
+  margin-left: auto;
+}
+
+.diary__text {
+  width: 530px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: $grey;
+  margin: 40px 0;
+}
